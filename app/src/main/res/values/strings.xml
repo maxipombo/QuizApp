@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+
+    <string name="description">Welcome to the Uruguayan Quiz App! How much do you know about Uruguay?
+        This small country is Latin American's kept secret. Ready to discover it?</string>
+
+    <string name="question_1">The first president was:</string>
+    <string name="question_2">Which are the colours of the flag?</string>
+    <string name="question_3">Which is the capital city?</string>
+    <string name="question_4">Who is the actual president?</string>
+    <string name="question_5">Which is the most popular sport?</string>
+
+    <string name="city_name">City Name</string>
+    <string name="sport_name">Sport Name</string>
+
+    <string name="president_1">Fructuoso Rivera</string>
+    <string name="president_2">José Gervacio Artigas</string>
+    <string name="president_3">José Mujica</string>
+
+    <string name="red">Red</string>
+    <string name="blue">Blue</string>
+    <string name="whites">White</string>
+    <string name="yellow">Yellow</string>
+    <string name="green">Green</string>
+
+</resources>
