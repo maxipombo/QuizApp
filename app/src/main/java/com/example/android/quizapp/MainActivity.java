@@ -1,10 +1,9 @@
 package com.example.android.quizapp;
 
-import android.content.Intent;
-import android.net.Uri;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.view.WindowManager;
 import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.RadioButton;
@@ -20,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        this.getWindow().setSoftInputMode(WindowManager.LayoutParams.SOFT_INPUT_STATE_ALWAYS_HIDDEN);
     }
 
     public void sendAnswers(View view) {
@@ -48,15 +48,21 @@ public class MainActivity extends AppCompatActivity {
 
         // Add one point for answer 2 correct
         CheckBox blueCheckBox = (CheckBox) findViewById(R.id.checkbox_blue);
-        boolean hasBlueCorrect = blueCheckBox.isChecked();
+        boolean hasBlue = blueCheckBox.isChecked();
 
         CheckBox whiteCheckBox = (CheckBox) findViewById(R.id.checkbox_white);
-        boolean hasWhiteCorrect = whiteCheckBox.isChecked();
+        boolean hasWhite = whiteCheckBox.isChecked();
 
         CheckBox yellowCheckBox = (CheckBox) findViewById(R.id.checkbox_yellow);
-        boolean hasYellowCorrect = yellowCheckBox.isChecked();
+        boolean hasYellow = yellowCheckBox.isChecked();
 
-        if (hasBlueCorrect && hasWhiteCorrect && hasYellowCorrect) {
+        CheckBox redCheckBox = (CheckBox) findViewById(R.id.checkbox_red);
+        boolean hasRed = redCheckBox.isChecked();
+
+        CheckBox greenCheckBox = (CheckBox) findViewById(R.id.checkbox_green);
+        boolean hasGreen = greenCheckBox.isChecked();
+
+        if (hasBlue && hasWhite && hasYellow && !hasRed && !hasGreen) {
             score += 1;
         }
 

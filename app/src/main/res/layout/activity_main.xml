@@ -95,7 +95,8 @@
             android:id="@+id/city_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/city_name" />
+            android:hint="@string/city_name"
+            android:singleLine="true"/>
 
         <TextView
             style="@style/QuestionTextStyle"
@@ -175,7 +176,8 @@
             android:id="@+id/sport_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:hint="@string/sport_name" />
+            android:hint="@string/sport_name"
+            android:singleLine="true"/>
 
         <Button
             android:layout_width="match_parent"
