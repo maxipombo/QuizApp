@@ -1,8 +1,7 @@
 <resources>
     <string name="app_name">Quiz App</string>
 
-    <string name="description">Welcome to the Uruguayan Quiz App! How much do you know about Uruguay?
-        This small country is Latin American's kept secret. Ready to discover it?</string>
+    <string name="description">Welcome to the Uruguayan Quiz App! How much do you know about Uruguay? This small country is Latin America\'s best kept secret. Ready to discover it?</string>
 
     <string name="question_1">The first president was:</string>
     <string name="question_2">Which are the colours of the flag?</string>
@@ -13,14 +12,18 @@
     <string name="city_name">City Name</string>
     <string name="sport_name">Sport Name</string>
 
-    <string name="president_1">Fructuoso Rivera</string>
-    <string name="president_2">José Gervacio Artigas</string>
-    <string name="president_3">José Mujica</string>
+    <string name="president_1" translatable="false">Fructuoso Rivera</string>
+    <string name="president_2" translatable="false">José Gervasio Artigas</string>
+    <string name="president_3" translatable="false">José Mujica</string>
 
     <string name="red">Red</string>
     <string name="blue">Blue</string>
     <string name="whites">White</string>
     <string name="yellow">Yellow</string>
     <string name="green">Green</string>
+
+    <string name="send">Send</string>
+    <string name="reset" translatable="false">Reset</string>
+    <string name="score">Points:</string>
 
 </resources>

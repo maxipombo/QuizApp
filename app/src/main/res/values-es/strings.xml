@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="blue">Azul</string>
+    <string name="city_name">Ciudad</string>
+    <string name="description">¡Bienvenido a la Quiz App uruguaya! ¿Cuánto sabes de Uruguay? Este pequeño país es la reliquia mejor guardada de Latinoamérica. ¿Pronto para descubrirlo?</string>
+    <string name="green">Verde</string>
+    <string name="question_1">El primer presidente fue:</string>
+    <string name="question_2">¿Cuáles son los colores de la bandera?</string>
+    <string name="question_3">¿Cuál es la capital?</string>
+    <string name="question_4">¿Quién es el actual presidente?</string>
+    <string name="question_5">¿Cuál es el deporte mas popular?</string>
+    <string name="red">Rojo</string>
+    <string name="reset"></string>
+    <string name="score">Puntos:</string>
+    <string name="send">Enviar</string>
+    <string name="sport_name">Deporte</string>
+    <string name="whites">Blanco</string>
+    <string name="yellow">Amarillo</string>
+</resources>

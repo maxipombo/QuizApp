@@ -59,35 +59,30 @@
                 android:id="@+id/checkbox_red"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onCheckboxClicked"
                 android:text="@string/red" />
 
             <CheckBox
                 android:id="@+id/checkbox_blue"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onCheckboxClicked"
                 android:text="@string/blue" />
 
             <CheckBox
                 android:id="@+id/checkbox_white"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onCheckboxClicked"
                 android:text="@string/whites" />
 
             <CheckBox
                 android:id="@+id/checkbox_yellow"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onCheckboxClicked"
                 android:text="@string/yellow" />
 
             <CheckBox
                 android:id="@+id/checkbox_green"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="onCheckboxClicked"
                 android:text="@string/green" />
 
         </LinearLayout>
@@ -97,6 +92,7 @@
             android:text="@string/question_3" />
 
         <EditText
+            android:id="@+id/city_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/city_name" />
@@ -147,25 +143,25 @@
             android:orientation="horizontal">
 
             <RadioButton
-                android:id="@+id/radio1"
+                android:id="@+id/radio_answer4_1"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
 
             <RadioButton
-                android:id="@+id/radio2"
+                android:id="@+id/radio_answer4_2"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
 
             <RadioButton
-                android:id="@+id/radio3"
+                android:id="@+id/radio_answer4_3"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
 
             <RadioButton
-                android:id="@+id/radio4"
+                android:id="@+id/radio_answer4_4"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1" />
@@ -176,9 +172,16 @@
             android:text="@string/question_5" />
 
         <EditText
+            android:id="@+id/sport_name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/sport_name" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="sendAnswers"
+            android:text="@string/send" />
 
     </LinearLayout>
 
